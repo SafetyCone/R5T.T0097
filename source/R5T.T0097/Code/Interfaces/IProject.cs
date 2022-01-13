@@ -6,7 +6,7 @@ using R5T.T0094;
 
 namespace R5T.T0097
 {
-    public interface IProject : INamedIdentifiedFilePathed, IMutableIdentified
+    public interface IProject : INamedIdentifiedFilePathed, IMutableNamedIdentified
     {
     }
 }
