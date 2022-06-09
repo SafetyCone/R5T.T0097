@@ -67,7 +67,7 @@ namespace R5T.T0097.X002
         }
 
         /// <summary>
-        /// Chooses <see cref="LoadProjectNameSelectionsReturnEmptyIfNotExists(string, IEnumerable{Project})"/> as the default.
+        /// Chooses <see cref="LoadProjectNameSelectionsReturnEmptyIfNotExists(IOperation, string, IEnumerable{Project})"/> as the default.
         /// </summary>
         public static async Task<ProjectNameSelection[]> LoadProjectNameSelections(this IOperation _,
             string projectNamesTextFilePath,
